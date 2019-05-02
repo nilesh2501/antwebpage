@@ -9,7 +9,7 @@
 <!-- in the project's Project Properties dialog box.-->
 <project name="Courier-Main" basedir="." default="war">
     <description>Builds, tests, and runs the project Courier-Main.</description>
-    <property name = "." value = "war"/>
+    <property name = "war-file-name" value = "${project-name}.war"/>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
