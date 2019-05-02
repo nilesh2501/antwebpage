@@ -71,7 +71,7 @@
     -->
     
   <target name="war">
-      <war destfile="${basedir}.war">
+      <war destfile="/var/lib/jenkins/workspace/antwebapp/app.war">
           <exclude name="WEB-INF/${build.dir}/**"/>                                                            
       <exclude name="WEB-INF/src/**"/>    
           </war>
