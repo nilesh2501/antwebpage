@@ -7,9 +7,9 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Courier-Main" basedir="." default="">
+<project name="Courier-Main" basedir="." default="war">
     <description>Builds, tests, and runs the project Courier-Main.</description>
-    <property name = "war-file-name" value = "${project-name}.war"/>
+   
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -69,4 +69,8 @@
     nbproject/build-impl.xml file. 
 
     -->
+    
+  <target name="war">
+      <war destfile="${ant.project.name}.war"/>
+       </target>
 </project>
