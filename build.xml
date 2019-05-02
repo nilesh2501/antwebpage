@@ -71,6 +71,6 @@
     -->
     
   <target name="war">
-      <war destfile="${ant.project.name}.war"/>
+      <war destfile="${basedir}.war"/>
        </target>
 </project>
