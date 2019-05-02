@@ -72,6 +72,8 @@
     
   <target name="war">
       <war destfile="${basedir}/myapp.war">
+          <exclude name="WEB-INF/${build.dir}/**"/>                                                            
+      <exclude name="WEB-INF/src/**"/>    
           </war>
        </target>
 </project>
