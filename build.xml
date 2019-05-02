@@ -73,7 +73,7 @@
   <target name="war">
       <war 
           needxmlfile="false"
-           destfile="${build.dir}/app.war">
+           destfile="${build.dir}.war">
            
           <exclude name="WEB-INF/${build.dir}/**"/>                                                            
       <exclude name="WEB-INF/src/**"/>    
