@@ -71,6 +71,7 @@
     -->
     
   <target name="war">
-      <war destfile="${basedir}.war"/>
+      <war destfile="${basedir}/myapp.war">
+          </war>
        </target>
 </project>
