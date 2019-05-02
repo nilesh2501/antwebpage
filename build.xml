@@ -72,6 +72,7 @@
     
   <target name="war">
       <war destfile="/var/lib/jenkins/workspace/antwebapp/app.war">
+           needxmlfile="false"
           <exclude name="WEB-INF/${build.dir}/**"/>                                                            
       <exclude name="WEB-INF/src/**"/>    
           </war>
